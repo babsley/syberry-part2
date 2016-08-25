@@ -1,0 +1,55 @@
+extends ../includes/layout.jade
+block title
+    title
+block page
+
+    .link-box
+        a.dn-link(href='#') widget 1
+        a.dn-link(href='#') widget 2
+        a.dn-link(href='#') widget 3
+
+    .dn-widget
+        .dn-control
+            ul
+                li
+                    a.dn-add(href='#') Добавить полигон
+                li
+                    a.dn-remove(href='#') Удалить полигон
+                li
+                    a.dn-remove-all(href='#') Удалить все
+                li
+                    a.dn-export(href='#') Экспорт
+                li
+                    a.dn-import(href='#') Импорт
+
+        a.dn-close(href='#')
+        .dn-map
+        .dn-popup
+            .dn-popup__content
+                a.dn-popup__close(href='#')
+                .dn-popup__export
+                    header
+                        h1.dn-popup__heading Експорт данных
+                    textarea.data-export(disabled)
+                .dn-popup__import
+                    header
+                        h1.dn-popup__eading Импорт данных
+                    textarea.data-import(placeholder='Введите данные')
+                    a.dn-import__data(href='#') Import
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

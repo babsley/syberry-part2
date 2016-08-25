@@ -1,0 +1,13 @@
+doctype html
+
+html(lang='en')
+    head
+        block title
+            title default title
+        include head.jade
+    body
+        .page
+            block page
+        block footer
+            include footer.jade
+            include scripts.jade

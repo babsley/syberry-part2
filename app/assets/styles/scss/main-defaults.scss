@@ -1,0 +1,56 @@
+@import "variables";
+
+* {
+    box-sizing: border-box;
+}
+
+:after, :before {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    &:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+html {
+    color: $font-color-base;
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    font-weight: 400;
+}
+
+body {
+    background-color: $body-background;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $heading-color-base;
+    font-weight: $heading-weight-base;
+}
+
+a {
+    color: $link-color-base;
+    text-decoration: none;
+    &:hover {
+        color: $link-hover-color-base;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.p-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}

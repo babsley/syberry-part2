@@ -1,0 +1,43 @@
+/****    colors    ****/
+$white: #fff;
+$gray: #F6F7F8;
+$orange: #F4733D;
+$blue: #38595E;
+$blue-light: #2CC0B3;
+
+$black: #2b2b2b;
+$black-light: #666;
+
+$orange-light: #e88153;
+
+$c-1: #F4733D;
+$c-2: #F4733D;
+$c-3: #38595E;
+$c-4: #F6F7F8;
+
+/****    font    ****/
+$font-family-base: 'Open Sans', sans-serif;
+$font-color-base: $black-light;
+$font-size-base: 14px;
+
+/****    headings    ****/
+$heading-family-base: $font-family-base;
+$heading-color-base: $black;
+$heading-weight-base: 700;
+
+/****    links    ****/
+$link-font-base: $font-family-base;
+$link-color-base: $black;
+$link-hover-color-base: $orange;
+
+/****    elements styles    ****/
+//body
+$body-background: $white;
+
+//nav
+$nav-background: $white;
+$nav-link-color: $gray;
+$nav-link-hover-color: $orange;
+$nav-link-font: $font-family-base;
+$nav-link-weight: 700;
+
